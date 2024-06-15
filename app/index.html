@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 class="title">Авторизация в облачном хранилище</h1>
+    <div class="wrapper">
+        <div id="buttonContainerIdYa"></div>
+        <div class="mailru-login-button" data-ui="login_as userpic" data-type="login"></div>
+        <button id="btnSignInOneDrive">Войти с OneDrive</button>
+    </div>
+
+    <script src="https://yastatic.net/s3/passport-sdk/autofill/v1/sdk-suggest-with-polyfills-latest.js"></script>
+    <script src="https://oauth.mail.ru/sdk/v0.17.4/oauth.js"></script>
+    <script src="https://alcdn.msauth.net/browser/2.30.0/js/msal-browser.js"
+        integrity="sha384-o4ufwq3oKqc7IoCcR08YtZXmgOljhTggRwxP2CLbSqeXGtitAxwYaUln/05nJjit"
+        crossorigin="anonymous"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>

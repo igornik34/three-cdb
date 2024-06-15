@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background: #673678;
+    background: radial-gradient(100% 100% at 50% 100%, #ca057ed5 10%, #000000ea 100%);
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 300px;
+    padding: 10px 40px;
+    backdrop-filter: blur(150px);
+    border-radius: 24px;
+    box-shadow: 1px 1px 28px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffe2;
+    font-size: 30px;
+}
+
+#btnSignInOneDrive {
+    background: transparent;
+    border: 0;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    background: linear-gradient(128.84deg, #0f6cbd 20.46%, #3c45ab 72.3%);
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.mailru-login-button {
+    height: 40px;
+    border-radius: 8px;
+
+}
+
+.mailru-login-button iframe {
+    border-radius: 8px !important;
+}
