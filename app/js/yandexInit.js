@@ -12,7 +12,7 @@ export default {
           parentId: "buttonContainerIdYa",
           buttonSize: "s",
           buttonView: "main",
-          buttonTheme: "light",
+          buttonTheme: "dark",
           buttonBorderRadius: "8",
           buttonIcon: "ya",
         }
